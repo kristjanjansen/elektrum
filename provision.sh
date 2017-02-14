@@ -14,3 +14,6 @@ npm install github-webhook-handler ip
 pm2 start deploy.js
 pm2 startup
 
+# Set up the project
+
+git clone https://github.com/kristjanjansen/nauka /var

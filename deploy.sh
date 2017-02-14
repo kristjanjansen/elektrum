@@ -1,5 +1,4 @@
-# First, cd to the right directory and then...
-
-echo "Starting deployent..."
+cd /var/nauka
+echo "Starting deployment..."
 git pull
 
