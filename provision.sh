@@ -1,11 +1,16 @@
-# Set up the system
+# Install required packages
 
 sudo apt-get update
 sudo apt-get install nginx -y
 sudo apt-get install mysql-server -y
 sudo apt-get install php-fpm php-mysql -y
-sudo apt-get install nodejs -y
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Copy Nginx config
+
 sudo cp default /etc/nginx/sites-available/default
+sudo systemctl reload nginx
 
 # Set up the deployer
 
@@ -16,4 +21,5 @@ pm2 startup
 
 # Set up the project
 
-git clone https://github.com/kristjanjansen/nauka /var
+git clone https://github.com/kristjanjansen/nauka /var/nauka
+
