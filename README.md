@@ -1,10 +1,10 @@
 # Provisioning 
 
-Read: virtual private server setup
+Or Virtual Private Server Setup
 
 ## Simple provisioning
 
-1. Spin up Digital Ocean / Linode server
+1. Spin up Digital Ocean / Linode server (min 1GB RAM)
 2. SSH into it as root
 3. Run
 
@@ -15,15 +15,15 @@ cd elektrum
 ./provision.sh
 ```
 
-(When dialogbox appears, keep pressing Enter)
+(When Mysql dialogbox appears, keep pressing Enter)
 
 A bit more secure tutorial is here: https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04
 
-## Complex provisioning
+## Advanced provisioning
 
-### As Saas
+### As a Saas
 
-https://forge.laravel.com/
+https://forge.laravel.com/ ($15/mo)
 
 ### As a shell script:
 
@@ -37,7 +37,7 @@ https://blog.serverdensity.com/deploying-nginx-with-ansible/
 
 ## Simple deployment
 
-See this project
+See this very project :)
 
 ## Zero-downtime deployers (with symlink magick)
 
@@ -45,37 +45,37 @@ https://envoyer.io/ - deploy-as-a-service ($5/mo)
 
 ## Zero-downtime local scripts
 
-Dunno how they work in GH webhook context
+Dunno how they work in Github webhook context
 
-https://deployer.org/ - in PHP, local, 
-https://github.com/papertank/envoy-deploy
-https://serversforhackers.com/video/enhancing-envoy-deployment
+- https://deployer.org
+- https://github.com/papertank/envoy-deploy
+- https://serversforhackers.com/video/enhancing-envoy-deployment
 
 # Testing
 
-## Test frameworks
+## Testing frameworks
 
 Codeception seems to be the most popular option for Yii
 
-http://codeception.com/docs/modules/Yii1
-http://codeception.com/for/yii
+- http://codeception.com/docs/modules/Yii1
+- http://codeception.com/for/yii
 
 ## Continuous integration test runners
 
-https://docs.travis-ci.com/user/languages/php
-https://circleci.com/docs/language-php/
+- https://docs.travis-ci.com/user/languages/php
+- https://circleci.com/docs/language-php/
 
 # Linting
 
 ## PHP
 
-https://styleci.readme.io/
-https://insight.sensiolabs.com
-https://scrutinizer-ci.com/
-https://codeclimate.com/
+- https://styleci.readme.io/
+- https://insight.sensiolabs.com
+- https://scrutinizer-ci.com/
+- https://codeclimate.com/
 
 ## CSS/JS
 
-https://github.com/stylelint/stylelint CSS
-http://eslint.org/ JS
+- https://github.com/stylelint/stylelint CSS
+- http://eslint.org/ JS
 
