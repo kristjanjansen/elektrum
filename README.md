@@ -1,81 +1,45 @@
-# Provisioning 
+# Elektrum Research and Development Lab
 
-Or Virtual Private Server Setup
+## New frontend
 
-## Simple provisioning
+👉 https://github.com/kristjanjansen/elektrum_frontend
 
-1. Spin up Digital Ocean / Linode server (min 1GB RAM)
-2. SSH into it as root
-3. Run
+## VPS providers
 
-```sh
-cd /var
-git clone https://github.com/kristjanjansen/elektrum
-cd elektrum
-./provision.sh
-```
+VPS is a deposable Linux instance, easy to spin up and down but needs to be configured (deployed) first.
 
-(When Mysql dialogbox appears, keep pressing Enter)
+https://www.digitalocean.com/pricing/
 
-A bit more secure tutorial is here: https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04
+https://www.linode.com/pricing
 
-## Advanced provisioning
+Not tested:
 
-### As a Saas
+https://amazonlightsail.com/pricing/
 
-https://forge.laravel.com/ ($15/mo)
+### Provisioning 
 
-### As a shell script:
+👉 https://github.com/kristjanjansen/elektrum_provision
+
+Provisioning is setting up a VPS with necessary packages
+
+#### SaaS-based provisioning:
+
+https://forge.laravel.com/ ($15/month)
+
+#### Complex Vagrant + shell script based provisioning:
 
 https://github.com/tripikad/trip2_vagrant/blob/master/provision.sh
 
-### As a special provisioning language
+## Deployment
 
-https://blog.serverdensity.com/deploying-nginx-with-ansible/
+👉 https://github.com/kristjanjansen/elektrum_deploy
 
-# Deployment
+Deployment is to getting the code from dev to staging and production (using Github webhook).
 
-## Simple deployment
+## Zero-downtime Forge script
 
-See this very project :)
+https://timleland.com/zero-downtime-laravel-forge-deploys/
 
-## Zero-downtime deployers (with symlink magick)
+## Zero-downtime deploying SaaS
 
-https://envoyer.io/ - deploy-as-a-service ($5/mo)
-
-## Zero-downtime local scripts
-
-Dunno how they work in Github webhook context
-
-- https://deployer.org
-- https://github.com/papertank/envoy-deploy
-- https://serversforhackers.com/video/enhancing-envoy-deployment
-
-# Testing
-
-## Testing frameworks
-
-Codeception seems to be the most popular option for Yii
-
-- http://codeception.com/docs/modules/Yii1
-- http://codeception.com/for/yii
-
-## Continuous integration test runners
-
-- https://docs.travis-ci.com/user/languages/php
-- https://circleci.com/docs/language-php/
-
-# Linting
-
-## PHP
-
-- https://styleci.readme.io/
-- https://insight.sensiolabs.com
-- https://scrutinizer-ci.com/
-- https://codeclimate.com/
-
-## CSS/JS
-
-- https://github.com/stylelint/stylelint CSS
-- http://eslint.org/ JS
-
+https://envoyer.io ($5/mo)
