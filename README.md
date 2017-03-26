@@ -43,3 +43,7 @@ https://timleland.com/zero-downtime-laravel-forge-deploys/
 ### Zero-downtime deployment SaaS
 
 https://envoyer.io ($5/mo)
+
+## Evaluating external services
+
+https://github.com/tripikad/trip2/issues/645
