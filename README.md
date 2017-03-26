@@ -1,5 +1,3 @@
-# Elektrum Research and Development Lab
-
 ## New frontend
 
 👉 https://github.com/kristjanjansen/elektrum_frontend
@@ -16,17 +14,17 @@ Not tested:
 
 https://amazonlightsail.com/pricing/
 
-### Provisioning 
+## Provisioning 
 
 👉 https://github.com/kristjanjansen/elektrum_provision
 
 Provisioning is setting up a VPS with necessary packages
 
-#### SaaS-based provisioning:
+### SaaS-based provisioning:
 
 https://forge.laravel.com/ ($15/month)
 
-#### Complex Vagrant + shell script based provisioning:
+### Complex Vagrant + shell script based provisioning:
 
 https://github.com/tripikad/trip2_vagrant/blob/master/provision.sh
 
@@ -36,10 +34,10 @@ https://github.com/tripikad/trip2_vagrant/blob/master/provision.sh
 
 Deployment is to getting the code from dev to staging and production (using Github webhook).
 
-## Zero-downtime Forge script
+### Zero-downtime Forge script
 
 https://timleland.com/zero-downtime-laravel-forge-deploys/
 
-## Zero-downtime deploying SaaS
+### Zero-downtime deployment SaaS
 
 https://envoyer.io ($5/mo)
