@@ -2,6 +2,8 @@
 
 👉 https://github.com/kristjanjansen/elektrum_frontend
 
+Cleanup of current CSS + JS workflow
+
 ## VPS providers
 
 VPS is a deposable Linux instance, easy to spin up and down but needs to be configured (deployed) first.
