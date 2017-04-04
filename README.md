@@ -1,3 +1,11 @@
+## Improved Yii installation
+
+👉 https://github.com/kristjanjansen/elektrum_yii
+
+* Composer workflow
+* Laravel ORM and query builder
+* Dotenv environment handling
+
 ## New frontend
 
 👉 https://github.com/kristjanjansen/elektrum_frontend
