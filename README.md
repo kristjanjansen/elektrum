@@ -1,28 +1,18 @@
 ## Improved Yii installation
 
-👉 https://github.com/kristjanjansen/elektrum_yii
+👉 Code: https://github.com/kristjanjansen/elektrum_yii
 
 * Composer workflow
 * Laravel ORM and query builder
 * Dotenv environment handling
+* Cleanup of current CSS + JS workflow
 
 ## New frontend
 
-👉 https://github.com/kristjanjansen/elektrum_frontend
+👉 Code: https://github.com/kristjanjansen/elektrum_frontend
+📸 Demo: https://elektrumfrontend.now.sh/
 
 Cleanup of current CSS + JS workflow
-
-## VPS providers
-
-VPS is a deposable Linux instance, easy to spin up and down but needs to be configured (deployed) first.
-
-https://www.digitalocean.com/pricing/
-
-https://www.linode.com/pricing
-
-Not tested:
-
-https://amazonlightsail.com/pricing/
 
 ## Provisioning 
 
@@ -52,6 +42,21 @@ https://timleland.com/zero-downtime-laravel-forge-deploys/
 
 https://envoyer.io ($5/mo)
 
-## Evaluating external services
+## Provider evaluation
+
+### VPS providers
+
+VPS is a deposable Linux instance, easy to spin up and down but needs to be configured (deployed) first.
+
+https://www.digitalocean.com/pricing/
+
+https://www.linode.com/pricing
+
+Not tested:
+
+https://amazonlightsail.com/pricing/
+
+### Other external providers
 
 https://github.com/tripikad/trip2/issues/645
+
