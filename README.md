@@ -1,5 +1,6 @@
-## Improved Yii installation
+## Improved Yii setup + frontend
 
+📸 Demo: http://138.68.64.17/
 👉 Code: https://github.com/kristjanjansen/elektrum_yii
 
 * Composer workflow
@@ -9,8 +10,8 @@
 
 ## New frontend
 
-👉 Code: https://github.com/kristjanjansen/elektrum_frontend
 📸 Demo: https://elektrumfrontend.now.sh/
+👉 Code: https://github.com/kristjanjansen/elektrum_frontend
 
 Cleanup of current CSS + JS workflow
 
