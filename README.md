@@ -1,6 +1,18 @@
+## Future frontend
+
+📸 https://elektrumvue.now.sh/
+
+👉 Code: https://github.com/kristjanjansen/elektrum_yii
+
+* VueJS based components
+* Reactive Datatable and Form
+
 ## Improved Yii setup + frontend
 
-📸 Demo: http://138.68.64.17/
+📸 Demo1: http://138.68.64.17/
+
+📸 Demo2: https://elektrumfrontend.now.sh/
+
 👉 Code: https://github.com/kristjanjansen/elektrum_yii
 
 * Composer workflow
@@ -8,12 +20,19 @@
 * Dotenv environment handling
 * Cleanup of current CSS + JS workflow
 
-## New frontend
+## Deployment
 
-📸 Demo: https://elektrumfrontend.now.sh/
-👉 Code: https://github.com/kristjanjansen/elektrum_frontend
+👉 https://github.com/kristjanjansen/elektrum_deploy
 
-Cleanup of current CSS + JS workflow
+Deployment is to getting the code from dev to staging and production automatically(using Github webhook).
+
+### Zero-downtime Forge script
+
+https://timleland.com/zero-downtime-laravel-forge-deploys/
+
+### Zero-downtime deployment SaaS
+
+https://envoyer.io ($5/mo)
 
 ## Provisioning 
 
@@ -29,23 +48,7 @@ https://forge.laravel.com/ ($15/month)
 
 https://github.com/tripikad/trip2_vagrant/blob/master/provision.sh
 
-## Deployment
-
-👉 https://github.com/kristjanjansen/elektrum_deploy
-
-Deployment is to getting the code from dev to staging and production (using Github webhook).
-
-### Zero-downtime Forge script
-
-https://timleland.com/zero-downtime-laravel-forge-deploys/
-
-### Zero-downtime deployment SaaS
-
-https://envoyer.io ($5/mo)
-
-## Provider evaluation
-
-### VPS providers
+## VPS provider evaluation
 
 VPS is a deposable Linux instance, easy to spin up and down but needs to be configured (deployed) first.
 
@@ -57,7 +60,7 @@ Not tested:
 
 https://amazonlightsail.com/pricing/
 
-### Other external providers
+## Other external providers evaluation
 
 https://github.com/tripikad/trip2/issues/645
 
