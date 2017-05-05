@@ -1,3 +1,11 @@
+## Laravel integration
+
+👉 Code: https://github.com/kristjanjansen/elektrum_laravel (private)
+
+* Migrations
+* Models
+* Factories
+
 ## Future frontend
 
 📸 https://elektrumvue.now.sh/
