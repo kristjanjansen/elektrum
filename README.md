@@ -1,4 +1,8 @@
-## Laravel integration
+## Elektrum
+
+Prototypes for migrating Yii backend to modern stack
+
+### Laravel integration
 
 👉 Code: https://github.com/kristjanjansen/elektrum_laravel (private)
 
@@ -6,7 +10,7 @@
 * Models
 * Factories
 
-## Future frontend
+### Future frontend
 
 📸 https://elektrumvue.now.sh/
 
@@ -15,7 +19,7 @@
 * VueJS based components
 * Reactive Datatable and Form
 
-## Improved Yii setup + frontend
+### Improved Yii setup + frontend
 
 📸 Demo1: http://138.68.64.17/
 
@@ -28,35 +32,35 @@
 * Dotenv environment handling
 * Cleanup of current CSS + JS workflow
 
-## Deployment
+### Deployment
 
 👉 https://github.com/kristjanjansen/elektrum_deploy
 
 Deployment is to getting the code from dev to staging and production automatically(using Github webhook).
 
-### Zero-downtime Forge script
+#### Zero-downtime Forge script
 
 https://timleland.com/zero-downtime-laravel-forge-deploys/
 
-### Zero-downtime deployment SaaS
+#### Zero-downtime deployment SaaS
 
 https://envoyer.io ($5/mo)
 
-## Provisioning 
+### Provisioning 
 
 👉 https://github.com/kristjanjansen/elektrum_provision
 
 Provisioning is setting up a VPS with necessary packages
 
-### SaaS-based provisioning:
+#### SaaS-based provisioning:
 
 https://forge.laravel.com/ ($15/month)
 
-### Complex Vagrant + shell script based provisioning:
+#### Complex Vagrant + shell script based provisioning:
 
 https://github.com/tripikad/trip2_vagrant/blob/master/provision.sh
 
-## VPS provider evaluation
+### VPS provider evaluation
 
 VPS is a deposable Linux instance, easy to spin up and down but needs to be configured (deployed) first.
 
@@ -68,7 +72,7 @@ Not tested:
 
 https://amazonlightsail.com/pricing/
 
-## Other external providers evaluation
+### Other external providers evaluation
 
 https://github.com/tripikad/trip2/issues/645
 
